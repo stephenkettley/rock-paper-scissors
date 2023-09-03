@@ -4,12 +4,14 @@ const playerScoreResult = document.getElementById("user-score");
 const computerScoreResult = document.getElementById("computer-score");
 const resetButton = document.getElementById("reset");
 
-playerScore = 0;
-computerScore = 0;
+let playerScore = 0;
+let computerScore = 0;
 
 resetButton.addEventListener("click", () => {
   computerScoreResult.innerText = 0;
   playerScoreResult.innerText = 0;
+  playerScore = 0;
+  computerScore = 0;
 });
 
 buttonElements.forEach((button) => {
