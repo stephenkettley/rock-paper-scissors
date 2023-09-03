@@ -23,7 +23,7 @@ p {
     justify-content: center;
 }
 
-button {
+.game-button {
     border: none;
     font-size: 3rem;
     margin: 0 .5rem;
@@ -61,3 +61,28 @@ button:hover {
     background-color: #63ace5;
 }
 
+#reset {
+    font-size: 16px;
+    background-color: #ed931d;
+    padding: 10px 20px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .2s ease;
+ 
+}
+
+#reset:hover {
+    background-color: #fdbd6a;
+}
+
+#user-score {
+    color: rgb(16, 212, 16);
+}
+
+#computer-score {
+    color: rgb(233, 61, 61)
+}
